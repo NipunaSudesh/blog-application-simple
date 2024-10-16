@@ -4,7 +4,7 @@ import { phone } from '../assets/index';
 
 export const BlogCard = () => {
   return (
-    <div className='w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl bg-red-200 p-1 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300'>
+    <div className='w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-2'>
       <div className='flex flex-col gap-4 bg-slate-300 rounded-lg transition-transform duration-500 group-hover:scale-105'>
         <div className='flex justify-center'>
           <Image src={phone} alt="iPhone 13 Pro Max" width={400} height={400} className='object-cover rounded-t-lg' />
